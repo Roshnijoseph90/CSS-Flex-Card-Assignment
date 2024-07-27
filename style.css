@@ -1,12 +1,11 @@
 body{
-    background-color: #4052d6;
-    
-}
+    /*background-color: #4052d6;*/
+    background-color: #3e54a0;
+
+    }
 
 *{
-   
-    box-sizing: border-box;
-    
+   box-sizing: border-box;
 }
 .box{
     
@@ -18,49 +17,36 @@ body{
    display: flex;
    justify-content: center; 
    align-items: top;
-   
    margin: 0 auto; 
    padding-top: 8px;
    margin-top: 40px;
    display: grid;
    place-items: center;
    
-
 }
 .flex-container {
     display: flex;
     justify-content: center; 
     align-items: center; 
     
-    
-     
-    
-    }
+}
 
 .box img {
     border-radius: 50%;
     width: 60px;
     height:60px;
     object-fit: cover; 
-    
-     place-items: center;
+    place-items: center;
      
 }
     
-    
-
 .name {
     
     display: block;
     align-items: center;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif    ; 
-    
-    
-
-
-    
-}
+    }
   
 .description{
    align-items: center;
@@ -68,9 +54,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     padding-left: 7px;
     margin-bottom: 50px;
-    
-
-}
+    }
 
 
 
